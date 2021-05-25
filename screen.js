@@ -15,7 +15,7 @@ class Screen{
           backGround.position(0,0);
            
           var logo = createImg(
-              '../images/logo.PNG',
+              '/images/logo.PNG',
               'Logo'
             );
           
@@ -84,7 +84,7 @@ class Screen{
                 button2.hide();
             
                 var court = createImg(
-                  '../images/Court.png',
+                  '/images/Court.png',
                   'Court'
                 );
           
@@ -109,7 +109,7 @@ class Screen{
                 miss.position(width/2+70,height/2-250);
             
                 var makeButton = createImg(
-                  '../images/makeButton.PNG',
+                  '/images/makeButton.PNG',
                   'makeButton'
                 );
             
@@ -118,7 +118,7 @@ class Screen{
                 makeButton.id("makeButton");
                 makeButton.mouseClicked(function () {
                   makeImg = createImg(
-                    '../images/circle2.png',
+                    '/images/circle2.png',
                     'makeImg'
                   );
                   makeImg.position(x-13,y-13);
@@ -128,7 +128,7 @@ class Screen{
             
                 makeButton.touchStarted(function () {
                   makeImg = createImg(
-                    '../images/circle2.png',
+                    '/images/circle2.png',
                     'makeImg'
                   );
                   makeImg.position(x-13,y-13);
@@ -138,7 +138,7 @@ class Screen{
 
 
                 var missButton = createImg(
-                  '../images/missedButton.PNG',
+                  '/images/missedButton.PNG',
                   'missedButton'
                 );
                 missButton.parent(backGround);
@@ -148,7 +148,7 @@ class Screen{
                 var missed = 0;
                 missButton.mouseClicked(function () {
                   missImg = createImg(
-                    '../images/cross.png',
+                    '/images/cross.png',
                     'missImg'
                   );
                   
@@ -158,7 +158,7 @@ class Screen{
             
                 missButton.touchStarted(function () {
                   missImg = createImg(
-                    '../images/cross.png',
+                    '/images/cross.png',
                     'missImg'
                   );
                   
