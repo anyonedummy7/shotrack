@@ -1,0 +1,138 @@
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+#backGround {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+#logo {
+  height: 30vh;
+  width: 40vw;
+}
+
+#logoM {
+  width: 390px;
+}
+
+#startButton {
+  font-family: "ConduitITCStd";
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  font-size: 40px;
+  border: black;
+}
+
+#beginM{
+  width: 100px;
+}
+
+#startButton2 {
+  font-family: "Conduit ITC Pro Italic";
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  border: black;
+}
+
+h1 {
+  font-family: "Futura";
+  color: #00a4d8;
+  font-size: 10vh;
+
+}
+
+#ins {
+  font-family: "Futura";
+  color: #00a4d8;
+  font-size: 80px;
+
+}
+
+#insM {
+  width: 380px;
+}
+
+#rule1M {
+  width: 390px;
+}
+
+#startM{
+  width: 100px;
+}
+
+h4 {
+  font-family: "Conduit ITC Pro Italic";
+  color: #00a4d8;
+  font-size: 3vh;
+}
+
+h5 {
+  font-family: "Conduit ITC Pro Italic";
+  color: white;
+  font-size: 3vh;
+}
+
+h2 {
+  font-family: "ConduitITCStd";
+  color: white;
+  font-size: 5vh;
+}
+
+#court {
+  height: 50vh;
+}
+
+#courtM {
+  width: 400px;
+}
+
+#makeButton {
+  height: 9vh;
+}
+
+#makeButton:active {
+  transform: scale(1.5, 1.5);
+}
+
+#makeButtonM {
+  height: 80px;
+}
+
+#makeButtonM:active {
+  transform: scale(1.5, 1.5);
+}
+
+#missButtonM {
+  height: 80px;
+}
+
+#missButtonM:active {
+  transform: scale(1.5, 1.5);
+}
+
+#missButton {
+  height: 9vh;
+}
+
+#missButton:active {
+  transform: scale(1.5, 1.5);
+}
+
+#tempImg {
+  position: absolute;
+  background-position-x: left;
+  background-position-y: top;
+}
